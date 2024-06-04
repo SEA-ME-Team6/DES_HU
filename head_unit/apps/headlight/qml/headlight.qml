@@ -33,16 +33,16 @@ ApplicationManagerWindow{
         });
     }
 
-    Image{
+    Image {
         id:background
         width: parent.width
         height: parent.height
         source: "images/benz.jpg"
-        Image{
+        Image {
             id:head_light_left
             width: 400
             height: 222
-            anchors{
+            anchors {
                 left: parent.left
                 top: parent.top
                 topMargin: 100

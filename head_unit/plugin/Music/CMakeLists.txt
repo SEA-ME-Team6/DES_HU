@@ -32,7 +32,7 @@ target_link_libraries(${PROJECT_NAME}
         CommonAPI
 )
 
-set(PLUGIN_PATH /usr/lib/qml/User/${PROJECT_NAME})
+set(PLUGIN_PATH ~/Qt/5.15.2/gcc_64/qml/User/${PROJECT_NAME})
 
 install(TARGETS       ${PROJECT_NAME}
         DESTINATION   ${PLUGIN_PATH}

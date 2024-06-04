@@ -1,7 +1,7 @@
 head_unit/plugin/Music/CMakeFiles/Music.dir/src/music.cpp.o: \
- /home/seame-workstation08/dahyun/app-ipi/head_unit/plugin/Music/src/music.cpp \
+ /home/seame-workstation08/dahyun/DES_HU/head_unit/plugin/Music/src/music.cpp \
  /usr/include/stdc-predef.h \
- /home/seame-workstation08/dahyun/app-ipi/head_unit/plugin/Music/src/music.h \
+ /home/seame-workstation08/dahyun/DES_HU/head_unit/plugin/Music/src/music.h \
  /home/seame-workstation08/Qt/5.15.2/gcc_64/include/QtCore/QObject \
  /home/seame-workstation08/Qt/5.15.2/gcc_64/include/QtCore/qobject.h \
  /home/seame-workstation08/Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs.h \

@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/seame-workstation08/dahyun/app-ipi
+CMAKE_SOURCE_DIR = /home/seame-workstation08/dahyun/DES_HU
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/seame-workstation08/dahyun/app-ipi/build
+CMAKE_BINARY_DIR = /home/seame-workstation08/dahyun/DES_HU/build
 
 # Include any dependencies generated for this target.
 include instrument_cluster/CMakeFiles/instrument_cluster.dir/depend.make
@@ -69,84 +69,84 @@ include instrument_cluster/CMakeFiles/instrument_cluster.dir/progress.make
 # Include the compile flags for this target's objects.
 include instrument_cluster/CMakeFiles/instrument_cluster.dir/flags.make
 
-instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/qml.qrc
+instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/qml.qrc
 instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: instrument_cluster/CMakeFiles/instrument_cluster_autogen.dir/AutoRcc_qml_UVLADIE3JM_Info.json
-instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/qml/TurnIndicator.qml
-instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/qml/dashboard.qml
-instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/qml/IconGaugeStyle.qml
-instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/qml/DashboardGaugeStyle.qml
-instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/qml/TachometerStyle.qml
-instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/qml/ValueSource.qml
-instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/images/battery.png
-instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/images/n.png
-instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/images/warning.jpg
-instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/images/r.png
-instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/images/temperature-icon.png
-instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/images/background.png
-instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/images/d.png
-instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/images/p.png
-instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/images/fuel-icon.png
-instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/fonts/LICENSE
-instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/fonts/DejaVuSans.ttf
+instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/qml/TurnIndicator.qml
+instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/qml/dashboard.qml
+instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/qml/IconGaugeStyle.qml
+instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/qml/DashboardGaugeStyle.qml
+instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/qml/TachometerStyle.qml
+instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/qml/ValueSource.qml
+instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/images/battery.png
+instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/images/n.png
+instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/images/warning.jpg
+instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/images/r.png
+instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/images/temperature-icon.png
+instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/images/background.png
+instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/images/d.png
+instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/images/p.png
+instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/images/fuel-icon.png
+instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/fonts/LICENSE
+instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/fonts/DejaVuSans.ttf
 instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp: /home/seame-workstation08/Qt/5.15.2/gcc_64/bin/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/seame-workstation08/dahyun/app-ipi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for src/qml.qrc"
-	cd /home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster && /usr/local/bin/cmake -E cmake_autorcc /home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster/CMakeFiles/instrument_cluster_autogen.dir/AutoRcc_qml_UVLADIE3JM_Info.json 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/seame-workstation08/dahyun/DES_HU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for src/qml.qrc"
+	cd /home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster && /usr/local/bin/cmake -E cmake_autorcc /home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster/CMakeFiles/instrument_cluster_autogen.dir/AutoRcc_qml_UVLADIE3JM_Info.json 
 
 instrument_cluster/CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/mocs_compilation.cpp.o: instrument_cluster/CMakeFiles/instrument_cluster.dir/flags.make
 instrument_cluster/CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/mocs_compilation.cpp.o: instrument_cluster/instrument_cluster_autogen/mocs_compilation.cpp
 instrument_cluster/CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/mocs_compilation.cpp.o: instrument_cluster/CMakeFiles/instrument_cluster.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/dahyun/app-ipi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object instrument_cluster/CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/mocs_compilation.cpp.o"
-	cd /home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT instrument_cluster/CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/mocs_compilation.cpp.o -MF CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/mocs_compilation.cpp.o -c /home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster/instrument_cluster_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/dahyun/DES_HU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object instrument_cluster/CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/mocs_compilation.cpp.o"
+	cd /home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT instrument_cluster/CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/mocs_compilation.cpp.o -MF CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/mocs_compilation.cpp.o -c /home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster/instrument_cluster_autogen/mocs_compilation.cpp
 
 instrument_cluster/CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/mocs_compilation.cpp.i"
-	cd /home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster/instrument_cluster_autogen/mocs_compilation.cpp > CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/mocs_compilation.cpp.i
+	cd /home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster/instrument_cluster_autogen/mocs_compilation.cpp > CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/mocs_compilation.cpp.i
 
 instrument_cluster/CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/mocs_compilation.cpp.s"
-	cd /home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster/instrument_cluster_autogen/mocs_compilation.cpp -o CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/mocs_compilation.cpp.s
+	cd /home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster/instrument_cluster_autogen/mocs_compilation.cpp -o CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/mocs_compilation.cpp.s
 
 instrument_cluster/CMakeFiles/instrument_cluster.dir/src/main.cpp.o: instrument_cluster/CMakeFiles/instrument_cluster.dir/flags.make
-instrument_cluster/CMakeFiles/instrument_cluster.dir/src/main.cpp.o: /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/main.cpp
+instrument_cluster/CMakeFiles/instrument_cluster.dir/src/main.cpp.o: /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/main.cpp
 instrument_cluster/CMakeFiles/instrument_cluster.dir/src/main.cpp.o: instrument_cluster/CMakeFiles/instrument_cluster.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/dahyun/app-ipi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object instrument_cluster/CMakeFiles/instrument_cluster.dir/src/main.cpp.o"
-	cd /home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT instrument_cluster/CMakeFiles/instrument_cluster.dir/src/main.cpp.o -MF CMakeFiles/instrument_cluster.dir/src/main.cpp.o.d -o CMakeFiles/instrument_cluster.dir/src/main.cpp.o -c /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/dahyun/DES_HU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object instrument_cluster/CMakeFiles/instrument_cluster.dir/src/main.cpp.o"
+	cd /home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT instrument_cluster/CMakeFiles/instrument_cluster.dir/src/main.cpp.o -MF CMakeFiles/instrument_cluster.dir/src/main.cpp.o.d -o CMakeFiles/instrument_cluster.dir/src/main.cpp.o -c /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/main.cpp
 
 instrument_cluster/CMakeFiles/instrument_cluster.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/instrument_cluster.dir/src/main.cpp.i"
-	cd /home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/main.cpp > CMakeFiles/instrument_cluster.dir/src/main.cpp.i
+	cd /home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/main.cpp > CMakeFiles/instrument_cluster.dir/src/main.cpp.i
 
 instrument_cluster/CMakeFiles/instrument_cluster.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/instrument_cluster.dir/src/main.cpp.s"
-	cd /home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/main.cpp -o CMakeFiles/instrument_cluster.dir/src/main.cpp.s
+	cd /home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/main.cpp -o CMakeFiles/instrument_cluster.dir/src/main.cpp.s
 
 instrument_cluster/CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.o: instrument_cluster/CMakeFiles/instrument_cluster.dir/flags.make
-instrument_cluster/CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.o: /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/icsystem.cpp
+instrument_cluster/CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.o: /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/icsystem.cpp
 instrument_cluster/CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.o: instrument_cluster/CMakeFiles/instrument_cluster.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/dahyun/app-ipi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object instrument_cluster/CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.o"
-	cd /home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT instrument_cluster/CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.o -MF CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.o.d -o CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.o -c /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/icsystem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/dahyun/DES_HU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object instrument_cluster/CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.o"
+	cd /home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT instrument_cluster/CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.o -MF CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.o.d -o CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.o -c /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/icsystem.cpp
 
 instrument_cluster/CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.i"
-	cd /home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/icsystem.cpp > CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.i
+	cd /home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/icsystem.cpp > CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.i
 
 instrument_cluster/CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.s"
-	cd /home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/icsystem.cpp -o CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.s
+	cd /home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/dahyun/DES_HU/instrument_cluster/src/icsystem.cpp -o CMakeFiles/instrument_cluster.dir/src/icsystem.cpp.s
 
 instrument_cluster/CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp.o: instrument_cluster/CMakeFiles/instrument_cluster.dir/flags.make
 instrument_cluster/CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp.o: instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp
 instrument_cluster/CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp.o: instrument_cluster/CMakeFiles/instrument_cluster.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/dahyun/app-ipi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object instrument_cluster/CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp.o"
-	cd /home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT instrument_cluster/CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp.o -MF CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp.o.d -o CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp.o -c /home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/dahyun/DES_HU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object instrument_cluster/CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp.o"
+	cd /home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT instrument_cluster/CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp.o -MF CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp.o.d -o CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp.o -c /home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp
 
 instrument_cluster/CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp.i"
-	cd /home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp > CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp.i
+	cd /home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp > CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp.i
 
 instrument_cluster/CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp.s"
-	cd /home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp -o CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp.s
+	cd /home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp -o CMakeFiles/instrument_cluster.dir/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp.s
 
 # Object files for target instrument_cluster
 instrument_cluster_OBJECTS = \
@@ -171,18 +171,18 @@ instrument_cluster/instrument_cluster: /home/seame-workstation08/Qt/5.15.2/gcc_6
 instrument_cluster/instrument_cluster: /home/seame-workstation08/Qt/5.15.2/gcc_64/lib/libQt5Network.so.5.15.2
 instrument_cluster/instrument_cluster: /home/seame-workstation08/Qt/5.15.2/gcc_64/lib/libQt5Core.so.5.15.2
 instrument_cluster/instrument_cluster: instrument_cluster/CMakeFiles/instrument_cluster.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/seame-workstation08/dahyun/app-ipi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable instrument_cluster"
-	cd /home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/instrument_cluster.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/seame-workstation08/dahyun/DES_HU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable instrument_cluster"
+	cd /home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/instrument_cluster.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 instrument_cluster/CMakeFiles/instrument_cluster.dir/build: instrument_cluster/instrument_cluster
 .PHONY : instrument_cluster/CMakeFiles/instrument_cluster.dir/build
 
 instrument_cluster/CMakeFiles/instrument_cluster.dir/clean:
-	cd /home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster && $(CMAKE_COMMAND) -P CMakeFiles/instrument_cluster.dir/cmake_clean.cmake
+	cd /home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster && $(CMAKE_COMMAND) -P CMakeFiles/instrument_cluster.dir/cmake_clean.cmake
 .PHONY : instrument_cluster/CMakeFiles/instrument_cluster.dir/clean
 
 instrument_cluster/CMakeFiles/instrument_cluster.dir/depend: instrument_cluster/instrument_cluster_autogen/UVLADIE3JM/qrc_qml.cpp
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/seame-workstation08/dahyun/app-ipi /home/seame-workstation08/dahyun/app-ipi/instrument_cluster /home/seame-workstation08/dahyun/app-ipi/build /home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster /home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster/CMakeFiles/instrument_cluster.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/seame-workstation08/dahyun/DES_HU /home/seame-workstation08/dahyun/DES_HU/instrument_cluster /home/seame-workstation08/dahyun/DES_HU/build /home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster /home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster/CMakeFiles/instrument_cluster.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : instrument_cluster/CMakeFiles/instrument_cluster.dir/depend
 

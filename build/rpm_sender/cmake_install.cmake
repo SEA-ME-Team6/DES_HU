@@ -1,4 +1,4 @@
-# Install script for directory: /home/seame-workstation08/dahyun/app-ipi/rpm_sender
+# Install script for directory: /home/seame-workstation08/dahyun/DES_HU/rpm_sender
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -57,7 +57,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/bin/DES3/rpm_sender" TYPE EXECUTABLE FILES "/home/seame-workstation08/dahyun/app-ipi/build/rpm_sender/rpm_sender")
+  file(INSTALL DESTINATION "/usr/bin/DES3/rpm_sender" TYPE EXECUTABLE FILES "/home/seame-workstation08/dahyun/DES_HU/build/rpm_sender/rpm_sender")
   if(EXISTS "$ENV{DESTDIR}/usr/bin/DES3/rpm_sender/rpm_sender" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/bin/DES3/rpm_sender/rpm_sender")
     file(RPATH_CHANGE

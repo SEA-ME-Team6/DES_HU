@@ -1,7 +1,7 @@
 head_unit/plugin/Music/CMakeFiles/Music.dir/src/music_plugin.cpp.o: \
- /home/seame-workstation08/dahyun/app-ipi/head_unit/plugin/Music/src/music_plugin.cpp \
+ /home/seame-workstation08/dahyun/DES_HU/head_unit/plugin/Music/src/music_plugin.cpp \
  /usr/include/stdc-predef.h \
- /home/seame-workstation08/dahyun/app-ipi/head_unit/plugin/Music/src/music_plugin.h \
+ /home/seame-workstation08/dahyun/DES_HU/head_unit/plugin/Music/src/music_plugin.h \
  /home/seame-workstation08/Qt/5.15.2/gcc_64/include/QtQml/QQmlExtensionPlugin \
  /home/seame-workstation08/Qt/5.15.2/gcc_64/include/QtQml/qqmlextensionplugin.h \
  /home/seame-workstation08/Qt/5.15.2/gcc_64/include/QtCore/qplugin.h \
@@ -258,7 +258,7 @@ head_unit/plugin/Music/CMakeFiles/Music.dir/src/music_plugin.cpp.o: \
  /home/seame-workstation08/Qt/5.15.2/gcc_64/include/QtQml/qtqml-config.h \
  /home/seame-workstation08/Qt/5.15.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
  /home/seame-workstation08/Qt/5.15.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
- /home/seame-workstation08/dahyun/app-ipi/head_unit/plugin/Music/src/music.h \
+ /home/seame-workstation08/dahyun/DES_HU/head_unit/plugin/Music/src/music.h \
  /home/seame-workstation08/Qt/5.15.2/gcc_64/include/QtCore/QObject \
  /home/seame-workstation08/Qt/5.15.2/gcc_64/include/QtCore/qobject.h \
  /home/seame-workstation08/Qt/5.15.2/gcc_64/include/QtCore/QStringList \

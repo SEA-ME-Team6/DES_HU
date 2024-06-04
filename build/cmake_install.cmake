@@ -1,4 +1,4 @@
-# Install script for directory: /home/seame-workstation08/dahyun/app-ipi
+# Install script for directory: /home/seame-workstation08/dahyun/DES_HU
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,32 +44,32 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/seame-workstation08/dahyun/app-ipi/build/gamepad/cmake_install.cmake")
+  include("/home/seame-workstation08/dahyun/DES_HU/build/gamepad/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/seame-workstation08/dahyun/app-ipi/build/head_unit/cmake_install.cmake")
+  include("/home/seame-workstation08/dahyun/DES_HU/build/head_unit/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster/cmake_install.cmake")
+  include("/home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/seame-workstation08/dahyun/app-ipi/build/racer/cmake_install.cmake")
+  include("/home/seame-workstation08/dahyun/DES_HU/build/racer/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/seame-workstation08/dahyun/app-ipi/build/rpm_sender/cmake_install.cmake")
+  include("/home/seame-workstation08/dahyun/DES_HU/build/rpm_sender/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/seame-workstation08/dahyun/app-ipi/build/battery_sender/cmake_install.cmake")
+  include("/home/seame-workstation08/dahyun/DES_HU/build/battery_sender/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -80,5 +80,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/seame-workstation08/dahyun/app-ipi/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/seame-workstation08/dahyun/DES_HU/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

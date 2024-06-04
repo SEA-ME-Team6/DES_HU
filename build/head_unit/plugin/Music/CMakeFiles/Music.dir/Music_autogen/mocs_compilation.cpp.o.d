@@ -1,7 +1,7 @@
 head_unit/plugin/Music/CMakeFiles/Music.dir/Music_autogen/mocs_compilation.cpp.o: \
- /home/seame-workstation08/dahyun/app-ipi/build/head_unit/plugin/Music/Music_autogen/mocs_compilation.cpp \
+ /home/seame-workstation08/dahyun/DES_HU/build/head_unit/plugin/Music/Music_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/seame-workstation08/dahyun/app-ipi/build/head_unit/plugin/Music/Music_autogen/UVLADIE3JM/moc_music.cpp \
+ /home/seame-workstation08/dahyun/DES_HU/build/head_unit/plugin/Music/Music_autogen/UVLADIE3JM/moc_music.cpp \
  /usr/include/c++/9/memory /usr/include/c++/9/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -138,7 +138,7 @@ head_unit/plugin/Music/CMakeFiles/Music.dir/Music_autogen/mocs_compilation.cpp.o
  /usr/include/c++/9/bits/atomic_base.h \
  /usr/include/c++/9/bits/atomic_lockfree_defines.h \
  /usr/include/c++/9/backward/auto_ptr.h \
- /home/seame-workstation08/dahyun/app-ipi/build/head_unit/plugin/Music/Music_autogen/UVLADIE3JM/../../../../../../head_unit/plugin/Music/src/music.h \
+ /home/seame-workstation08/dahyun/DES_HU/build/head_unit/plugin/Music/Music_autogen/UVLADIE3JM/../../../../../../head_unit/plugin/Music/src/music.h \
  /home/seame-workstation08/Qt/5.15.2/gcc_64/include/QtCore/QObject \
  /home/seame-workstation08/Qt/5.15.2/gcc_64/include/QtCore/qobject.h \
  /home/seame-workstation08/Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs.h \
@@ -276,8 +276,8 @@ head_unit/plugin/Music/CMakeFiles/Music.dir/Music_autogen/mocs_compilation.cpp.o
  /home/seame-workstation08/Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkconfiguration.h \
  /home/seame-workstation08/Qt/5.15.2/gcc_64/include/QtCore/QFileSystemWatcher \
  /home/seame-workstation08/Qt/5.15.2/gcc_64/include/QtCore/qfilesystemwatcher.h \
- /home/seame-workstation08/dahyun/app-ipi/build/head_unit/plugin/Music/Music_autogen/UVLADIE3JM/moc_music_plugin.cpp \
- /home/seame-workstation08/dahyun/app-ipi/build/head_unit/plugin/Music/Music_autogen/UVLADIE3JM/../../../../../../head_unit/plugin/Music/src/music_plugin.h \
+ /home/seame-workstation08/dahyun/DES_HU/build/head_unit/plugin/Music/Music_autogen/UVLADIE3JM/moc_music_plugin.cpp \
+ /home/seame-workstation08/dahyun/DES_HU/build/head_unit/plugin/Music/Music_autogen/UVLADIE3JM/../../../../../../head_unit/plugin/Music/src/music_plugin.h \
  /home/seame-workstation08/Qt/5.15.2/gcc_64/include/QtQml/QQmlExtensionPlugin \
  /home/seame-workstation08/Qt/5.15.2/gcc_64/include/QtQml/qqmlextensionplugin.h \
  /home/seame-workstation08/Qt/5.15.2/gcc_64/include/QtCore/qplugin.h \

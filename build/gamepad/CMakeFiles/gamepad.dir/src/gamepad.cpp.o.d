@@ -1,8 +1,8 @@
 gamepad/CMakeFiles/gamepad.dir/src/gamepad.cpp.o: \
- /home/seame-workstation08/dahyun/app-ipi/gamepad/src/gamepad.cpp \
+ /home/seame-workstation08/dahyun/DES_HU/gamepad/src/gamepad.cpp \
  /usr/include/stdc-predef.h \
- /home/seame-workstation08/dahyun/app-ipi/gamepad/src/gamepad.h \
- /home/seame-workstation08/dahyun/app-ipi/gamepad/src/IncludePython.h \
+ /home/seame-workstation08/dahyun/DES_HU/gamepad/src/gamepad.h \
+ /home/seame-workstation08/dahyun/DES_HU/gamepad/src/IncludePython.h \
  /usr/include/python3.8/Python.h /usr/include/python3.8/patchlevel.h \
  /usr/include/python3.8/pyconfig.h \
  /usr/include/x86_64-linux-gnu/python3.8/pyconfig.h \

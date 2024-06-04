@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/seame-workstation08/dahyun/app-ipi
+CMAKE_SOURCE_DIR = /home/seame-workstation08/dahyun/DES_HU
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/seame-workstation08/dahyun/app-ipi/build
+CMAKE_BINARY_DIR = /home/seame-workstation08/dahyun/DES_HU/build
 
 # Include any dependencies generated for this target.
 include head_unit/plugin/Music/CMakeFiles/Music.dir/depend.make
@@ -72,44 +72,44 @@ include head_unit/plugin/Music/CMakeFiles/Music.dir/flags.make
 head_unit/plugin/Music/CMakeFiles/Music.dir/Music_autogen/mocs_compilation.cpp.o: head_unit/plugin/Music/CMakeFiles/Music.dir/flags.make
 head_unit/plugin/Music/CMakeFiles/Music.dir/Music_autogen/mocs_compilation.cpp.o: head_unit/plugin/Music/Music_autogen/mocs_compilation.cpp
 head_unit/plugin/Music/CMakeFiles/Music.dir/Music_autogen/mocs_compilation.cpp.o: head_unit/plugin/Music/CMakeFiles/Music.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/dahyun/app-ipi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object head_unit/plugin/Music/CMakeFiles/Music.dir/Music_autogen/mocs_compilation.cpp.o"
-	cd /home/seame-workstation08/dahyun/app-ipi/build/head_unit/plugin/Music && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT head_unit/plugin/Music/CMakeFiles/Music.dir/Music_autogen/mocs_compilation.cpp.o -MF CMakeFiles/Music.dir/Music_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/Music.dir/Music_autogen/mocs_compilation.cpp.o -c /home/seame-workstation08/dahyun/app-ipi/build/head_unit/plugin/Music/Music_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/dahyun/DES_HU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object head_unit/plugin/Music/CMakeFiles/Music.dir/Music_autogen/mocs_compilation.cpp.o"
+	cd /home/seame-workstation08/dahyun/DES_HU/build/head_unit/plugin/Music && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT head_unit/plugin/Music/CMakeFiles/Music.dir/Music_autogen/mocs_compilation.cpp.o -MF CMakeFiles/Music.dir/Music_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/Music.dir/Music_autogen/mocs_compilation.cpp.o -c /home/seame-workstation08/dahyun/DES_HU/build/head_unit/plugin/Music/Music_autogen/mocs_compilation.cpp
 
 head_unit/plugin/Music/CMakeFiles/Music.dir/Music_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Music.dir/Music_autogen/mocs_compilation.cpp.i"
-	cd /home/seame-workstation08/dahyun/app-ipi/build/head_unit/plugin/Music && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/dahyun/app-ipi/build/head_unit/plugin/Music/Music_autogen/mocs_compilation.cpp > CMakeFiles/Music.dir/Music_autogen/mocs_compilation.cpp.i
+	cd /home/seame-workstation08/dahyun/DES_HU/build/head_unit/plugin/Music && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/dahyun/DES_HU/build/head_unit/plugin/Music/Music_autogen/mocs_compilation.cpp > CMakeFiles/Music.dir/Music_autogen/mocs_compilation.cpp.i
 
 head_unit/plugin/Music/CMakeFiles/Music.dir/Music_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Music.dir/Music_autogen/mocs_compilation.cpp.s"
-	cd /home/seame-workstation08/dahyun/app-ipi/build/head_unit/plugin/Music && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/dahyun/app-ipi/build/head_unit/plugin/Music/Music_autogen/mocs_compilation.cpp -o CMakeFiles/Music.dir/Music_autogen/mocs_compilation.cpp.s
+	cd /home/seame-workstation08/dahyun/DES_HU/build/head_unit/plugin/Music && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/dahyun/DES_HU/build/head_unit/plugin/Music/Music_autogen/mocs_compilation.cpp -o CMakeFiles/Music.dir/Music_autogen/mocs_compilation.cpp.s
 
 head_unit/plugin/Music/CMakeFiles/Music.dir/src/music.cpp.o: head_unit/plugin/Music/CMakeFiles/Music.dir/flags.make
-head_unit/plugin/Music/CMakeFiles/Music.dir/src/music.cpp.o: /home/seame-workstation08/dahyun/app-ipi/head_unit/plugin/Music/src/music.cpp
+head_unit/plugin/Music/CMakeFiles/Music.dir/src/music.cpp.o: /home/seame-workstation08/dahyun/DES_HU/head_unit/plugin/Music/src/music.cpp
 head_unit/plugin/Music/CMakeFiles/Music.dir/src/music.cpp.o: head_unit/plugin/Music/CMakeFiles/Music.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/dahyun/app-ipi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object head_unit/plugin/Music/CMakeFiles/Music.dir/src/music.cpp.o"
-	cd /home/seame-workstation08/dahyun/app-ipi/build/head_unit/plugin/Music && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT head_unit/plugin/Music/CMakeFiles/Music.dir/src/music.cpp.o -MF CMakeFiles/Music.dir/src/music.cpp.o.d -o CMakeFiles/Music.dir/src/music.cpp.o -c /home/seame-workstation08/dahyun/app-ipi/head_unit/plugin/Music/src/music.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/dahyun/DES_HU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object head_unit/plugin/Music/CMakeFiles/Music.dir/src/music.cpp.o"
+	cd /home/seame-workstation08/dahyun/DES_HU/build/head_unit/plugin/Music && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT head_unit/plugin/Music/CMakeFiles/Music.dir/src/music.cpp.o -MF CMakeFiles/Music.dir/src/music.cpp.o.d -o CMakeFiles/Music.dir/src/music.cpp.o -c /home/seame-workstation08/dahyun/DES_HU/head_unit/plugin/Music/src/music.cpp
 
 head_unit/plugin/Music/CMakeFiles/Music.dir/src/music.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Music.dir/src/music.cpp.i"
-	cd /home/seame-workstation08/dahyun/app-ipi/build/head_unit/plugin/Music && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/dahyun/app-ipi/head_unit/plugin/Music/src/music.cpp > CMakeFiles/Music.dir/src/music.cpp.i
+	cd /home/seame-workstation08/dahyun/DES_HU/build/head_unit/plugin/Music && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/dahyun/DES_HU/head_unit/plugin/Music/src/music.cpp > CMakeFiles/Music.dir/src/music.cpp.i
 
 head_unit/plugin/Music/CMakeFiles/Music.dir/src/music.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Music.dir/src/music.cpp.s"
-	cd /home/seame-workstation08/dahyun/app-ipi/build/head_unit/plugin/Music && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/dahyun/app-ipi/head_unit/plugin/Music/src/music.cpp -o CMakeFiles/Music.dir/src/music.cpp.s
+	cd /home/seame-workstation08/dahyun/DES_HU/build/head_unit/plugin/Music && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/dahyun/DES_HU/head_unit/plugin/Music/src/music.cpp -o CMakeFiles/Music.dir/src/music.cpp.s
 
 head_unit/plugin/Music/CMakeFiles/Music.dir/src/music_plugin.cpp.o: head_unit/plugin/Music/CMakeFiles/Music.dir/flags.make
-head_unit/plugin/Music/CMakeFiles/Music.dir/src/music_plugin.cpp.o: /home/seame-workstation08/dahyun/app-ipi/head_unit/plugin/Music/src/music_plugin.cpp
+head_unit/plugin/Music/CMakeFiles/Music.dir/src/music_plugin.cpp.o: /home/seame-workstation08/dahyun/DES_HU/head_unit/plugin/Music/src/music_plugin.cpp
 head_unit/plugin/Music/CMakeFiles/Music.dir/src/music_plugin.cpp.o: head_unit/plugin/Music/CMakeFiles/Music.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/dahyun/app-ipi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object head_unit/plugin/Music/CMakeFiles/Music.dir/src/music_plugin.cpp.o"
-	cd /home/seame-workstation08/dahyun/app-ipi/build/head_unit/plugin/Music && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT head_unit/plugin/Music/CMakeFiles/Music.dir/src/music_plugin.cpp.o -MF CMakeFiles/Music.dir/src/music_plugin.cpp.o.d -o CMakeFiles/Music.dir/src/music_plugin.cpp.o -c /home/seame-workstation08/dahyun/app-ipi/head_unit/plugin/Music/src/music_plugin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/seame-workstation08/dahyun/DES_HU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object head_unit/plugin/Music/CMakeFiles/Music.dir/src/music_plugin.cpp.o"
+	cd /home/seame-workstation08/dahyun/DES_HU/build/head_unit/plugin/Music && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT head_unit/plugin/Music/CMakeFiles/Music.dir/src/music_plugin.cpp.o -MF CMakeFiles/Music.dir/src/music_plugin.cpp.o.d -o CMakeFiles/Music.dir/src/music_plugin.cpp.o -c /home/seame-workstation08/dahyun/DES_HU/head_unit/plugin/Music/src/music_plugin.cpp
 
 head_unit/plugin/Music/CMakeFiles/Music.dir/src/music_plugin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Music.dir/src/music_plugin.cpp.i"
-	cd /home/seame-workstation08/dahyun/app-ipi/build/head_unit/plugin/Music && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/dahyun/app-ipi/head_unit/plugin/Music/src/music_plugin.cpp > CMakeFiles/Music.dir/src/music_plugin.cpp.i
+	cd /home/seame-workstation08/dahyun/DES_HU/build/head_unit/plugin/Music && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/seame-workstation08/dahyun/DES_HU/head_unit/plugin/Music/src/music_plugin.cpp > CMakeFiles/Music.dir/src/music_plugin.cpp.i
 
 head_unit/plugin/Music/CMakeFiles/Music.dir/src/music_plugin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Music.dir/src/music_plugin.cpp.s"
-	cd /home/seame-workstation08/dahyun/app-ipi/build/head_unit/plugin/Music && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/dahyun/app-ipi/head_unit/plugin/Music/src/music_plugin.cpp -o CMakeFiles/Music.dir/src/music_plugin.cpp.s
+	cd /home/seame-workstation08/dahyun/DES_HU/build/head_unit/plugin/Music && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/seame-workstation08/dahyun/DES_HU/head_unit/plugin/Music/src/music_plugin.cpp -o CMakeFiles/Music.dir/src/music_plugin.cpp.s
 
 # Object files for target Music
 Music_OBJECTS = \
@@ -134,18 +134,18 @@ head_unit/plugin/Music/libMusic.so: /home/seame-workstation08/Qt/5.15.2/gcc_64/l
 head_unit/plugin/Music/libMusic.so: /home/seame-workstation08/Qt/5.15.2/gcc_64/lib/libQt5Gui.so.5.15.2
 head_unit/plugin/Music/libMusic.so: /home/seame-workstation08/Qt/5.15.2/gcc_64/lib/libQt5Core.so.5.15.2
 head_unit/plugin/Music/libMusic.so: head_unit/plugin/Music/CMakeFiles/Music.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/seame-workstation08/dahyun/app-ipi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libMusic.so"
-	cd /home/seame-workstation08/dahyun/app-ipi/build/head_unit/plugin/Music && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Music.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/seame-workstation08/dahyun/DES_HU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libMusic.so"
+	cd /home/seame-workstation08/dahyun/DES_HU/build/head_unit/plugin/Music && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Music.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 head_unit/plugin/Music/CMakeFiles/Music.dir/build: head_unit/plugin/Music/libMusic.so
 .PHONY : head_unit/plugin/Music/CMakeFiles/Music.dir/build
 
 head_unit/plugin/Music/CMakeFiles/Music.dir/clean:
-	cd /home/seame-workstation08/dahyun/app-ipi/build/head_unit/plugin/Music && $(CMAKE_COMMAND) -P CMakeFiles/Music.dir/cmake_clean.cmake
+	cd /home/seame-workstation08/dahyun/DES_HU/build/head_unit/plugin/Music && $(CMAKE_COMMAND) -P CMakeFiles/Music.dir/cmake_clean.cmake
 .PHONY : head_unit/plugin/Music/CMakeFiles/Music.dir/clean
 
 head_unit/plugin/Music/CMakeFiles/Music.dir/depend:
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/seame-workstation08/dahyun/app-ipi /home/seame-workstation08/dahyun/app-ipi/head_unit/plugin/Music /home/seame-workstation08/dahyun/app-ipi/build /home/seame-workstation08/dahyun/app-ipi/build/head_unit/plugin/Music /home/seame-workstation08/dahyun/app-ipi/build/head_unit/plugin/Music/CMakeFiles/Music.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/seame-workstation08/dahyun/DES_HU /home/seame-workstation08/dahyun/DES_HU/head_unit/plugin/Music /home/seame-workstation08/dahyun/DES_HU/build /home/seame-workstation08/dahyun/DES_HU/build/head_unit/plugin/Music /home/seame-workstation08/dahyun/DES_HU/build/head_unit/plugin/Music/CMakeFiles/Music.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : head_unit/plugin/Music/CMakeFiles/Music.dir/depend
 

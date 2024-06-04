@@ -13095,3 +13095,276 @@
 [CAPI][VERBOSE] Registering function for creating "commonapi.LightStatus:v1_0" proxy.
 [CAPI][DEBUG] Loading interface library "liblightsomeipproxy.so" succeeded.
 [CAPI][VERBOSE] Creating proxy for "local:commonapi.LightStatus:v1_0:LightStatus"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearStatus:v1_0:GearStatus --> libgearsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.LightStatus:v1_0:LightStatus --> liblightsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.RPMStatus:v1_0:RPMStatus --> librpmsomeipproxy.so
+[CAPI][INFO] Loading configuration file '/home/seame-workstation08/dahyun/app-ipi/head_unit/head-unit.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearStatus:v1_0:GearStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearStatus:v1_0:GearStatus <--> [1237.567c(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libgearsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.GearStatus:v1_0:GearStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.RPMStatus:v1_0:RPMStatus <--> [1235.5679(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.RPMStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "librpmsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.RPMStatus:v1_0:RPMStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.LightStatus:v1_0:LightStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.LightStatus:v1_0:LightStatus <--> [1239.567d(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.LightStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "liblightsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.LightStatus:v1_0:LightStatus"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearStatus:v1_0:GearStatus --> libgearsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.LightStatus:v1_0:LightStatus --> liblightsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.RPMStatus:v1_0:RPMStatus --> librpmsomeipproxy.so
+[CAPI][INFO] Loading configuration file '/home/seame-workstation08/dahyun/app-ipi/head_unit/head-unit.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearStatus:v1_0:GearStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearStatus:v1_0:GearStatus <--> [1237.567c(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libgearsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.GearStatus:v1_0:GearStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.RPMStatus:v1_0:RPMStatus <--> [1235.5679(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.RPMStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "librpmsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.RPMStatus:v1_0:RPMStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.LightStatus:v1_0:LightStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.LightStatus:v1_0:LightStatus <--> [1239.567d(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.LightStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "liblightsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.LightStatus:v1_0:LightStatus"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearStatus:v1_0:GearStatus --> libgearsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.LightStatus:v1_0:LightStatus --> liblightsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.RPMStatus:v1_0:RPMStatus --> librpmsomeipproxy.so
+[CAPI][INFO] Loading configuration file '/home/seame-workstation08/dahyun/app-ipi/head_unit/head-unit.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearStatus:v1_0:GearStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearStatus:v1_0:GearStatus <--> [1237.567c(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libgearsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.GearStatus:v1_0:GearStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.RPMStatus:v1_0:RPMStatus <--> [1235.5679(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.RPMStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "librpmsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.RPMStatus:v1_0:RPMStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.LightStatus:v1_0:LightStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.LightStatus:v1_0:LightStatus <--> [1239.567d(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.LightStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "liblightsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.LightStatus:v1_0:LightStatus"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearStatus:v1_0:GearStatus --> libgearsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.LightStatus:v1_0:LightStatus --> liblightsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.RPMStatus:v1_0:RPMStatus --> librpmsomeipproxy.so
+[CAPI][INFO] Loading configuration file '/home/seame-workstation08/dahyun/app-ipi/head_unit/head-unit.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearStatus:v1_0:GearStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearStatus:v1_0:GearStatus <--> [1237.567c(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libgearsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.GearStatus:v1_0:GearStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.RPMStatus:v1_0:RPMStatus <--> [1235.5679(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.RPMStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "librpmsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.RPMStatus:v1_0:RPMStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.LightStatus:v1_0:LightStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.LightStatus:v1_0:LightStatus <--> [1239.567d(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.LightStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "liblightsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.LightStatus:v1_0:LightStatus"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearStatus:v1_0:GearStatus --> libgearsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.LightStatus:v1_0:LightStatus --> liblightsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.RPMStatus:v1_0:RPMStatus --> librpmsomeipproxy.so
+[CAPI][INFO] Loading configuration file '/home/seame-workstation08/dahyun/app-ipi/head_unit/head-unit.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearStatus:v1_0:GearStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearStatus:v1_0:GearStatus <--> [1237.567c(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libgearsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.GearStatus:v1_0:GearStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.RPMStatus:v1_0:RPMStatus <--> [1235.5679(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.RPMStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "librpmsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.RPMStatus:v1_0:RPMStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.LightStatus:v1_0:LightStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.LightStatus:v1_0:LightStatus <--> [1239.567d(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.LightStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "liblightsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.LightStatus:v1_0:LightStatus"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearStatus:v1_0:GearStatus --> libgearsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.LightStatus:v1_0:LightStatus --> liblightsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.RPMStatus:v1_0:RPMStatus --> librpmsomeipproxy.so
+[CAPI][INFO] Loading configuration file '/home/seame-workstation08/dahyun/app-ipi/head_unit/head-unit.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearStatus:v1_0:GearStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearStatus:v1_0:GearStatus <--> [1237.567c(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libgearsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.GearStatus:v1_0:GearStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.RPMStatus:v1_0:RPMStatus <--> [1235.5679(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.RPMStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "librpmsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.RPMStatus:v1_0:RPMStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.LightStatus:v1_0:LightStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.LightStatus:v1_0:LightStatus <--> [1239.567d(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.LightStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "liblightsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.LightStatus:v1_0:LightStatus"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearStatus:v1_0:GearStatus --> libgearsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.LightStatus:v1_0:LightStatus --> liblightsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.RPMStatus:v1_0:RPMStatus --> librpmsomeipproxy.so
+[CAPI][INFO] Loading configuration file '/home/seame-workstation08/dahyun/app-ipi/head_unit/head-unit.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearStatus:v1_0:GearStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearStatus:v1_0:GearStatus <--> [1237.567c(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libgearsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.GearStatus:v1_0:GearStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.RPMStatus:v1_0:RPMStatus <--> [1235.5679(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.RPMStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "librpmsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.RPMStatus:v1_0:RPMStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.LightStatus:v1_0:LightStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.LightStatus:v1_0:LightStatus <--> [1239.567d(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.LightStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "liblightsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.LightStatus:v1_0:LightStatus"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearStatus:v1_0:GearStatus --> libgearsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.LightStatus:v1_0:LightStatus --> liblightsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.RPMStatus:v1_0:RPMStatus --> librpmsomeipproxy.so
+[CAPI][INFO] Loading configuration file '/home/seame-workstation08/dahyun/app-ipi/head_unit/head-unit.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearStatus:v1_0:GearStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearStatus:v1_0:GearStatus <--> [1237.567c(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libgearsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.GearStatus:v1_0:GearStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.RPMStatus:v1_0:RPMStatus <--> [1235.5679(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.RPMStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "librpmsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.RPMStatus:v1_0:RPMStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.LightStatus:v1_0:LightStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.LightStatus:v1_0:LightStatus <--> [1239.567d(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.LightStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "liblightsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.LightStatus:v1_0:LightStatus"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearStatus:v1_0:GearStatus --> libgearsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.LightStatus:v1_0:LightStatus --> liblightsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.RPMStatus:v1_0:RPMStatus --> librpmsomeipproxy.so
+[CAPI][INFO] Loading configuration file '/home/seame-workstation08/dahyun/app-ipi/head_unit/head-unit.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearStatus:v1_0:GearStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearStatus:v1_0:GearStatus <--> [1237.567c(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libgearsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.GearStatus:v1_0:GearStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.RPMStatus:v1_0:RPMStatus <--> [1235.5679(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.RPMStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "librpmsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.RPMStatus:v1_0:RPMStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.LightStatus:v1_0:LightStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.LightStatus:v1_0:LightStatus <--> [1239.567d(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.LightStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "liblightsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.LightStatus:v1_0:LightStatus"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearStatus:v1_0:GearStatus --> libgearsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.LightStatus:v1_0:LightStatus --> liblightsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.RPMStatus:v1_0:RPMStatus --> librpmsomeipproxy.so
+[CAPI][INFO] Loading configuration file '/home/seame-workstation08/dahyun/app-ipi/head_unit/head-unit.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearStatus:v1_0:GearStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearStatus:v1_0:GearStatus <--> [1237.567c(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libgearsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.GearStatus:v1_0:GearStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.RPMStatus:v1_0:RPMStatus <--> [1235.5679(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.RPMStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "librpmsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.RPMStatus:v1_0:RPMStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.LightStatus:v1_0:LightStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.LightStatus:v1_0:LightStatus <--> [1239.567d(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.LightStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "liblightsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.LightStatus:v1_0:LightStatus"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearStatus:v1_0:GearStatus --> libgearsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.LightStatus:v1_0:LightStatus --> liblightsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.RPMStatus:v1_0:RPMStatus --> librpmsomeipproxy.so
+[CAPI][INFO] Loading configuration file '/home/seame-workstation08/dahyun/app-ipi/head_unit/head-unit.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearStatus:v1_0:GearStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearStatus:v1_0:GearStatus <--> [1237.567c(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libgearsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.GearStatus:v1_0:GearStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.RPMStatus:v1_0:RPMStatus <--> [1235.5679(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.RPMStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "librpmsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.RPMStatus:v1_0:RPMStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.LightStatus:v1_0:LightStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.LightStatus:v1_0:LightStatus <--> [1239.567d(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.LightStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "liblightsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.LightStatus:v1_0:LightStatus"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearStatus:v1_0:GearStatus --> libgearsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.LightStatus:v1_0:LightStatus --> liblightsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.RPMStatus:v1_0:RPMStatus --> librpmsomeipproxy.so
+[CAPI][INFO] Loading configuration file '/home/seame-workstation08/dahyun/app-ipi/head_unit/head-unit.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearStatus:v1_0:GearStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearStatus:v1_0:GearStatus <--> [1237.567c(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libgearsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.GearStatus:v1_0:GearStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.RPMStatus:v1_0:RPMStatus <--> [1235.5679(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.RPMStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "librpmsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.RPMStatus:v1_0:RPMStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.LightStatus:v1_0:LightStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.LightStatus:v1_0:LightStatus <--> [1239.567d(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.LightStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "liblightsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.LightStatus:v1_0:LightStatus"
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.GearStatus:v1_0:GearStatus --> libgearsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.LightStatus:v1_0:LightStatus --> liblightsomeipproxy.so
+[CAPI][DEBUG] Adding proxy mapping: local:commonapi.RPMStatus:v1_0:RPMStatus --> librpmsomeipproxy.so
+[CAPI][INFO] Loading configuration file '/home/seame-workstation08/dahyun/app-ipi/head_unit/head-unit.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][DEBUG] Loading library for local:commonapi.GearStatus:v1_0:GearStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.GearStatus:v1_0:GearStatus <--> [1237.567c(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.GearStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "libgearsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.GearStatus:v1_0:GearStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.RPMStatus:v1_0:RPMStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.RPMStatus:v1_0:RPMStatus <--> [1235.5679(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.RPMStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "librpmsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.RPMStatus:v1_0:RPMStatus"
+[CAPI][DEBUG] Loading library for local:commonapi.LightStatus:v1_0:LightStatus proxy.
+[CAPI][DEBUG] Added address mapping: local:commonapi.LightStatus:v1_0:LightStatus <--> [1239.567d(1.0)]
+[CAPI][VERBOSE] Registering function for creating "commonapi.LightStatus:v1_0" proxy.
+[CAPI][DEBUG] Loading interface library "liblightsomeipproxy.so" succeeded.
+[CAPI][VERBOSE] Creating proxy for "local:commonapi.LightStatus:v1_0:LightStatus"

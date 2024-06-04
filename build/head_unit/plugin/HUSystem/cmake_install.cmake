@@ -1,4 +1,4 @@
-# Install script for directory: /home/seame-workstation08/dahyun/app-ipi/head_unit/plugin/HUSystem
+# Install script for directory: /home/seame-workstation08/dahyun/DES_HU/head_unit/plugin/HUSystem
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -57,7 +57,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/lib/qml/User/HUSystem" TYPE SHARED_LIBRARY FILES "/home/seame-workstation08/dahyun/app-ipi/build/head_unit/plugin/HUSystem/libHUSystem.so")
+  file(INSTALL DESTINATION "/usr/lib/qml/User/HUSystem" TYPE SHARED_LIBRARY FILES "/home/seame-workstation08/dahyun/DES_HU/build/head_unit/plugin/HUSystem/libHUSystem.so")
   if(EXISTS "$ENV{DESTDIR}/usr/lib/qml/User/HUSystem/libHUSystem.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/lib/qml/User/HUSystem/libHUSystem.so")
     file(RPATH_CHANGE
@@ -82,6 +82,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/lib/qml/User/HUSystem" TYPE FILE FILES "/home/seame-workstation08/dahyun/app-ipi/head_unit/plugin/HUSystem/qmldir")
+  file(INSTALL DESTINATION "/usr/lib/qml/User/HUSystem" TYPE FILE FILES "/home/seame-workstation08/dahyun/DES_HU/head_unit/plugin/HUSystem/qmldir")
 endif()
 

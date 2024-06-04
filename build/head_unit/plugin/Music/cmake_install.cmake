@@ -1,4 +1,4 @@
-# Install script for directory: /home/seame-workstation08/dahyun/app-ipi/head_unit/plugin/Music
+# Install script for directory: /home/seame-workstation08/dahyun/DES_HU/head_unit/plugin/Music
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,29 +43,29 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/usr/lib/qml/User/Music/libMusic.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/lib/qml/User/Music/libMusic.so")
+  if(EXISTS "$ENV{DESTDIR}/home/seame-workstation08/Qt/5.15.2/gcc_64/qml/User/Music/libMusic.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/seame-workstation08/Qt/5.15.2/gcc_64/qml/User/Music/libMusic.so")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/usr/lib/qml/User/Music/libMusic.so"
+         FILE "$ENV{DESTDIR}/home/seame-workstation08/Qt/5.15.2/gcc_64/qml/User/Music/libMusic.so"
          RPATH "")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/lib/qml/User/Music/libMusic.so")
+   "/home/seame-workstation08/Qt/5.15.2/gcc_64/qml/User/Music/libMusic.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/lib/qml/User/Music" TYPE SHARED_LIBRARY FILES "/home/seame-workstation08/dahyun/app-ipi/build/head_unit/plugin/Music/libMusic.so")
-  if(EXISTS "$ENV{DESTDIR}/usr/lib/qml/User/Music/libMusic.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/lib/qml/User/Music/libMusic.so")
+  file(INSTALL DESTINATION "/home/seame-workstation08/Qt/5.15.2/gcc_64/qml/User/Music" TYPE SHARED_LIBRARY FILES "/home/seame-workstation08/dahyun/DES_HU/build/head_unit/plugin/Music/libMusic.so")
+  if(EXISTS "$ENV{DESTDIR}/home/seame-workstation08/Qt/5.15.2/gcc_64/qml/User/Music/libMusic.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/seame-workstation08/Qt/5.15.2/gcc_64/qml/User/Music/libMusic.so")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}/usr/lib/qml/User/Music/libMusic.so"
+         FILE "$ENV{DESTDIR}/home/seame-workstation08/Qt/5.15.2/gcc_64/qml/User/Music/libMusic.so"
          OLD_RPATH "/home/seame-workstation08/Qt/5.15.2/gcc_64/lib:/home/seame-workstation08/build-commonapi/capicxx-core-runtime/build:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/lib/qml/User/Music/libMusic.so")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/seame-workstation08/Qt/5.15.2/gcc_64/qml/User/Music/libMusic.so")
     endif()
   endif()
 endif()
@@ -75,13 +75,13 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/lib/qml/User/Music/qmldir")
+   "/home/seame-workstation08/Qt/5.15.2/gcc_64/qml/User/Music/qmldir")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/lib/qml/User/Music" TYPE FILE FILES "/home/seame-workstation08/dahyun/app-ipi/head_unit/plugin/Music/qmldir")
+  file(INSTALL DESTINATION "/home/seame-workstation08/Qt/5.15.2/gcc_64/qml/User/Music" TYPE FILE FILES "/home/seame-workstation08/dahyun/DES_HU/head_unit/plugin/Music/qmldir")
 endif()
 

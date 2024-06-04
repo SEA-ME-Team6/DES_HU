@@ -53,13 +53,24 @@ HUSystem::HUSystem() {
     );
 }
 
-
-void HUSystem::changegear(quint8 gear){
+void HUSystem::changegear(quint8 gear_){
     CommonAPI::CallStatus callStatus;
     std::string replymessage;
-    gearProxy->gearselection(gear, callStatus, replymessage);
+    gearProxy->gearselection(gear_, callStatus, replymessage);
     std::cout << "callStatus: " << ((callStatus == CommonAPI::CallStatus::SUCCESS) ? "SUCCESS" : "NO_SUCCESS") << std::endl;
     std::cout << "response: " << replymessage << std::endl;
+}
+
+void HUSystem::changelkas(){
+    lkas = !lkas;
+    emit lkasChanged();
+    std::cout << "LKAS PUSH" << std::endl;
+}
+
+void HUSystem::changeaeb(){
+    aeb = !aeb;
+    emit aebChanged();
+    std::cout << "AEB PUSH" << std::endl;
 }
 
 bool HUSystem::getLight() const {
@@ -68,4 +79,12 @@ bool HUSystem::getLight() const {
 
 quint8 HUSystem::getGear() const {
     return gear;
+}
+
+quint8 HUSystem::getLkas() const {
+    return lkas;
+}
+
+quint8 HUSystem::getAeb() const {
+    return aeb;
 }

@@ -1,5 +1,5 @@
-/home/seame-workstation08/dahyun/app-ipi/build/head_unit/plugin/Music/Music_autogen/UVLADIE3JM/moc_music_plugin.cpp: /home/seame-workstation08/dahyun/app-ipi/head_unit/plugin/Music/src/music_plugin.h \
-  /home/seame-workstation08/dahyun/app-ipi/build/head_unit/plugin/Music/Music_autogen/moc_predefs.h \
+/home/seame-workstation08/dahyun/DES_HU/build/head_unit/plugin/Music/Music_autogen/UVLADIE3JM/moc_music_plugin.cpp: /home/seame-workstation08/dahyun/DES_HU/head_unit/plugin/Music/src/music_plugin.h \
+  /home/seame-workstation08/dahyun/DES_HU/build/head_unit/plugin/Music/Music_autogen/moc_predefs.h \
   /home/seame-workstation08/Qt/5.15.2/gcc_64/include/QtCore/QUrl \
   /home/seame-workstation08/Qt/5.15.2/gcc_64/include/QtCore/qalgorithms.h \
   /home/seame-workstation08/Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h \

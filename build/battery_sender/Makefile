@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/seame-workstation08/dahyun/app-ipi
+CMAKE_SOURCE_DIR = /home/seame-workstation08/dahyun/DES_HU
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/seame-workstation08/dahyun/app-ipi/build
+CMAKE_BINARY_DIR = /home/seame-workstation08/dahyun/DES_HU/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/dahyun/app-ipi/build/CMakeFiles /home/seame-workstation08/dahyun/app-ipi/build/battery_sender//CMakeFiles/progress.marks
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 battery_sender/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/dahyun/app-ipi/build/CMakeFiles 0
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/dahyun/DES_HU/build/CMakeFiles /home/seame-workstation08/dahyun/DES_HU/build/battery_sender//CMakeFiles/progress.marks
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 battery_sender/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/dahyun/DES_HU/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 battery_sender/clean
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 battery_sender/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 battery_sender/preinstall
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 battery_sender/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 battery_sender/preinstall
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 battery_sender/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 battery_sender/CMakeFiles/battery_sender.dir/rule:
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 battery_sender/CMakeFiles/battery_sender.dir/rule
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 battery_sender/CMakeFiles/battery_sender.dir/rule
 .PHONY : battery_sender/CMakeFiles/battery_sender.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ battery_sender: battery_sender/CMakeFiles/battery_sender.dir/rule
 
 # fast build rule for target.
 battery_sender/fast:
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/build
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/build
 .PHONY : battery_sender/fast
 
 src/battery.o: src/battery.cpp.o
@@ -180,7 +180,7 @@ src/battery.o: src/battery.cpp.o
 
 # target to build an object file
 src/battery.cpp.o:
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/src/battery.cpp.o
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/src/battery.cpp.o
 .PHONY : src/battery.cpp.o
 
 src/battery.i: src/battery.cpp.i
@@ -188,7 +188,7 @@ src/battery.i: src/battery.cpp.i
 
 # target to preprocess a source file
 src/battery.cpp.i:
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/src/battery.cpp.i
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/src/battery.cpp.i
 .PHONY : src/battery.cpp.i
 
 src/battery.s: src/battery.cpp.s
@@ -196,7 +196,7 @@ src/battery.s: src/battery.cpp.s
 
 # target to generate assembly for a file
 src/battery.cpp.s:
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/src/battery.cpp.s
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/src/battery.cpp.s
 .PHONY : src/battery.cpp.s
 
 src/batterystubImpl.o: src/batterystubImpl.cpp.o
@@ -204,7 +204,7 @@ src/batterystubImpl.o: src/batterystubImpl.cpp.o
 
 # target to build an object file
 src/batterystubImpl.cpp.o:
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/src/batterystubImpl.cpp.o
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/src/batterystubImpl.cpp.o
 .PHONY : src/batterystubImpl.cpp.o
 
 src/batterystubImpl.i: src/batterystubImpl.cpp.i
@@ -212,7 +212,7 @@ src/batterystubImpl.i: src/batterystubImpl.cpp.i
 
 # target to preprocess a source file
 src/batterystubImpl.cpp.i:
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/src/batterystubImpl.cpp.i
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/src/batterystubImpl.cpp.i
 .PHONY : src/batterystubImpl.cpp.i
 
 src/batterystubImpl.s: src/batterystubImpl.cpp.s
@@ -220,7 +220,7 @@ src/batterystubImpl.s: src/batterystubImpl.cpp.s
 
 # target to generate assembly for a file
 src/batterystubImpl.cpp.s:
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/src/batterystubImpl.cpp.s
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/src/batterystubImpl.cpp.s
 .PHONY : src/batterystubImpl.cpp.s
 
 src/batterysystem.o: src/batterysystem.cpp.o
@@ -228,7 +228,7 @@ src/batterysystem.o: src/batterysystem.cpp.o
 
 # target to build an object file
 src/batterysystem.cpp.o:
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/src/batterysystem.cpp.o
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/src/batterysystem.cpp.o
 .PHONY : src/batterysystem.cpp.o
 
 src/batterysystem.i: src/batterysystem.cpp.i
@@ -236,7 +236,7 @@ src/batterysystem.i: src/batterysystem.cpp.i
 
 # target to preprocess a source file
 src/batterysystem.cpp.i:
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/src/batterysystem.cpp.i
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/src/batterysystem.cpp.i
 .PHONY : src/batterysystem.cpp.i
 
 src/batterysystem.s: src/batterysystem.cpp.s
@@ -244,7 +244,7 @@ src/batterysystem.s: src/batterysystem.cpp.s
 
 # target to generate assembly for a file
 src/batterysystem.cpp.s:
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/src/batterysystem.cpp.s
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/src/batterysystem.cpp.s
 .PHONY : src/batterysystem.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -252,7 +252,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/src/main.cpp.o
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -260,7 +260,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/src/main.cpp.i
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -268,7 +268,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/src/main.cpp.s
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(MAKE) $(MAKESILENT) -f battery_sender/CMakeFiles/battery_sender.dir/build.make battery_sender/CMakeFiles/battery_sender.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -307,6 +307,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

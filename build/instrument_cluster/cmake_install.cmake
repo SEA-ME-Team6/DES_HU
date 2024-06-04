@@ -1,4 +1,4 @@
-# Install script for directory: /home/seame-workstation08/dahyun/app-ipi/instrument_cluster
+# Install script for directory: /home/seame-workstation08/dahyun/DES_HU/instrument_cluster
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -57,7 +57,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/bin/DES3/instrument_cluster" TYPE EXECUTABLE FILES "/home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster/instrument_cluster")
+  file(INSTALL DESTINATION "/usr/bin/DES3/instrument_cluster" TYPE EXECUTABLE FILES "/home/seame-workstation08/dahyun/DES_HU/build/instrument_cluster/instrument_cluster")
   if(EXISTS "$ENV{DESTDIR}/usr/bin/DES3/instrument_cluster/instrument_cluster" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/bin/DES3/instrument_cluster/instrument_cluster")
     file(RPATH_CHANGE

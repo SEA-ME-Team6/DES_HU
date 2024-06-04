@@ -1,4 +1,4 @@
-# Install script for directory: /home/seame-workstation08/dahyun/app-ipi/battery_sender
+# Install script for directory: /home/seame-workstation08/dahyun/DES_HU/battery_sender
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -57,7 +57,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/bin/DES3/battery_sender" TYPE EXECUTABLE FILES "/home/seame-workstation08/dahyun/app-ipi/build/battery_sender/battery_sender")
+  file(INSTALL DESTINATION "/usr/bin/DES3/battery_sender" TYPE EXECUTABLE FILES "/home/seame-workstation08/dahyun/DES_HU/build/battery_sender/battery_sender")
   if(EXISTS "$ENV{DESTDIR}/usr/bin/DES3/battery_sender/battery_sender" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/bin/DES3/battery_sender/battery_sender")
     file(RPATH_CHANGE

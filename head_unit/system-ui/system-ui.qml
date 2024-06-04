@@ -75,6 +75,8 @@ Window {
         id: husystem
         property var hu_gear: gear // source data 
         property var hu_light: light // source data
+        property var hu_lkas: lkas // source data
+        property var hu_aeb: aeb // source data
     }
 
     Image{
@@ -90,14 +92,14 @@ Window {
 
         Image {
             id: benz_logo
-            source: "images/benz_logo.png"
+            source: "images/vw_logo.png"
             anchors{
                 left: parent.left
                 leftMargin: 350
                 top: parent.top
                 topMargin: 150 
             }  
-            width: 348
+            width: 380
             height: 300
         }
 
@@ -107,8 +109,18 @@ Window {
                 top: parent.top
                 topMargin: 120
                 left: parent.left
-                leftMargin: 50
+                leftMargin: 30
             }      
+        }
+
+        Adas {
+            id: adasselection
+            anchors {
+                top: parent.top
+                topMargin: 200
+                left: parent.left
+                leftMargin: 100
+            }
         }
 
         // Show application names and icons

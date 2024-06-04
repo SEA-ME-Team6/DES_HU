@@ -1,8 +1,8 @@
 battery_sender/CMakeFiles/battery_sender.dir/src/battery.cpp.o: \
- /home/seame-workstation08/dahyun/app-ipi/battery_sender/src/battery.cpp \
+ /home/seame-workstation08/dahyun/DES_HU/battery_sender/src/battery.cpp \
  /usr/include/stdc-predef.h \
- /home/seame-workstation08/dahyun/app-ipi/battery_sender/src/battery.h \
- /home/seame-workstation08/dahyun/app-ipi/battery_sender/src/IncludePython.h \
+ /home/seame-workstation08/dahyun/DES_HU/battery_sender/src/battery.h \
+ /home/seame-workstation08/dahyun/DES_HU/battery_sender/src/IncludePython.h \
  /usr/include/python3.8/Python.h /usr/include/python3.8/patchlevel.h \
  /usr/include/python3.8/pyconfig.h \
  /usr/include/x86_64-linux-gnu/python3.8/pyconfig.h \

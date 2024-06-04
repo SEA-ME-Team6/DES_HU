@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/seame-workstation08/dahyun/app-ipi
+CMAKE_SOURCE_DIR = /home/seame-workstation08/dahyun/DES_HU
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/seame-workstation08/dahyun/app-ipi/build
+CMAKE_BINARY_DIR = /home/seame-workstation08/dahyun/DES_HU/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/dahyun/app-ipi/build/CMakeFiles /home/seame-workstation08/dahyun/app-ipi/build/head_unit//CMakeFiles/progress.marks
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 head_unit/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/dahyun/app-ipi/build/CMakeFiles 0
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/dahyun/DES_HU/build/CMakeFiles /home/seame-workstation08/dahyun/DES_HU/build/head_unit//CMakeFiles/progress.marks
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 head_unit/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seame-workstation08/dahyun/DES_HU/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 head_unit/clean
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 head_unit/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,17 +148,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 head_unit/preinstall
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 head_unit/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 head_unit/preinstall
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 head_unit/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -184,6 +184,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/seame-workstation08/dahyun/app-ipi/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/seame-workstation08/dahyun/DES_HU/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
