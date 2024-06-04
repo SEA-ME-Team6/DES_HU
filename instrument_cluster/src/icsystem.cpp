@@ -13,9 +13,9 @@ ICSystem::ICSystem() : speed(0), rpm(0), battery(0), gear(0) {
     std::string rpm_instance = "RPMStatus";
     std::string rpm_connection = "client-rpm";
     rpmProxy = runtime->buildProxy<RPMStatusProxy>(domain, rpm_instance, rpm_connection); 
-    while (!rpmProxy->isAvailable()) {
-        std::cout << "Waiting for RPM service to become available." << std::endl;
-    }
+    // while (!rpmProxy->isAvailable()) {
+    //     std::cout << "Waiting for RPM service to become available." << std::endl;
+    // }
     rpmProxy->getRpmAttribute().getChangedEvent().subscribe(
         [&](const float& rpm_){
             rpm = rpm_;
@@ -29,9 +29,9 @@ ICSystem::ICSystem() : speed(0), rpm(0), battery(0), gear(0) {
     std::string battery_instance = "BatteryStatus";
     std::string battery_connection = "client-battery";
     batteryProxy = runtime->buildProxy<BatteryStatusProxy>(domain, battery_instance, battery_connection);
-    while (!batteryProxy->isAvailable()) {
-        std::cout << "Waiting for Battey service to become available." << std::endl;
-    }
+    // while (!batteryProxy->isAvailable()) {
+    //     std::cout << "Waiting for Battey service to become available." << std::endl;
+    // }
     batteryProxy->getBatteryAttribute().getChangedEvent().subscribe(
         [&](const uint32_t& battery_){
             battery = battery_;
@@ -43,9 +43,9 @@ ICSystem::ICSystem() : speed(0), rpm(0), battery(0), gear(0) {
     std::string gear_instance = "GearStatus";
     std::string gear_connection = "client-gear";
     gearProxy = runtime->buildProxy<GearStatusProxy>(domain, gear_instance, gear_connection);
-    while (!gearProxy->isAvailable()) {
-        std::cout << "Waiting for Battey service to become available." << std::endl;
-    }
+    // while (!gearProxy->isAvailable()) {
+    //     std::cout << "Waiting for Battey service to become available." << std::endl;
+    // }
     gearProxy->getGearAttribute().getChangedEvent().subscribe(
         [&](const uint8_t& gear_){
             gear = gear_;

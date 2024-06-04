@@ -20,9 +20,9 @@ GamepadSystem::GamepadSystem(){
     std::string light_instance = "LightStatus";
     std::string light_connection = "client-light";
     lightProxy = runtime->buildProxy<LightStatusProxy>(domain, light_instance, light_connection);
-    while (!lightProxy->isAvailable()) {
-        std::cout << "Waiting for Light service to become available." << std::endl;
-    }    
+    // while (!lightProxy->isAvailable()) {
+    //     std::cout << "Waiting for Light service to become available." << std::endl;
+    // }    
     lightProxy->getLightAttribute().getChangedEvent().subscribe(
         [&](const bool& light_){
             light = light_;

@@ -14,9 +14,9 @@ HUSystem::HUSystem() {
     std::string gear_instance = "GearStatus";
     std::string gear_connection = "client-gear";
     gearProxy = runtime->buildProxy<GearStatusProxy>(domain, gear_instance, gear_connection);
-    while (!gearProxy->isAvailable()) {
-        std::cout << "Waiting for Gear service to become available." << std::endl;
-    }
+    // while (!gearProxy->isAvailable()) {
+    //     std::cout << "Waiting for Gear service to become available." << std::endl;
+    // }
 
     gearProxy->getGearAttribute().getChangedEvent().subscribe(
         [&](const uint8_t& gear_){
@@ -29,9 +29,9 @@ HUSystem::HUSystem() {
     std::string rpm_instance = "RPMStatus";
     std::string rpm_connection = "client-rpm";
     rpmProxy = runtime->buildProxy<RPMStatusProxy>(domain, rpm_instance, rpm_connection);
-    while (!rpmProxy->isAvailable()) {
-        std::cout << "Waiting for RPM service to become available." << std::endl;
-    }
+    // while (!rpmProxy->isAvailable()) {
+    //     std::cout << "Waiting for RPM service to become available." << std::endl;
+    // }
     rpmProxy->getRpmAttribute().getChangedEvent().subscribe(
         [&](const float& rpm_){
             rpm_check = rpm_;
@@ -42,9 +42,9 @@ HUSystem::HUSystem() {
     std::string light_instance = "LightStatus";
     std::string light_connection = "client-light";
     lightProxy = runtime->buildProxy<LightStatusProxy>(domain, light_instance, light_connection);
-    while (!lightProxy->isAvailable()) {
-        std::cout << "Waiting for Light service to become available." << std::endl;
-    }   
+    // while (!lightProxy->isAvailable()) {
+    //     std::cout << "Waiting for Light service to become available." << std::endl;
+    // }   
     lightProxy->getLightAttribute().getChangedEvent().subscribe(
         [&](const bool& light_){
             light = light_;

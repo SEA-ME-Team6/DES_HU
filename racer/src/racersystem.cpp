@@ -21,9 +21,9 @@ RacerSystem::RacerSystem() {
     std::string moving_instance = "MovingStatus";
     std::string moving_connection = "service-moving";
     movingProxy = runtime->buildProxy<MovingStatusProxy>(domain, moving_instance, moving_connection);
-    while (!movingProxy->isAvailable()) {
-        std::cout << "Waiting for Moving service to become available." << std::endl;
-    }
+    // while (!movingProxy->isAvailable()) {
+    //     std::cout << "Waiting for Moving service to become available." << std::endl;
+    // }
     movingProxy->getSteeringAttribute().getChangedEvent().subscribe(
         [&](const float& steering_){
             steering = steering_; 
