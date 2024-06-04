@@ -1,0 +1,23 @@
+import "platform:/plugin/org.genivi.commonapi.someip/deployment/CommonAPI-4-SOMEIP_deployment_spec.fdepl"
+import "rpm.fidl"
+
+define org.genivi.commonapi.someip.deployment for interface commonapi.RPMStatus {
+    SomeIpServiceID = 4661
+
+    attribute rpm {
+        SomeIpGetterID = 3001
+        SomeIpSetterID = 3002
+        SomeIpNotifierID = 33011
+        SomeIpNotifierEventGroups = { 33011 }
+
+        SomeIpReliable = true
+    }
+}
+
+define org.genivi.commonapi.someip.deployment for provider as Service {
+    instance commonapi.RPMStatus {
+        InstanceId = "RPMStatus"
+
+        SomeIpInstanceID = 22137
+    }
+}

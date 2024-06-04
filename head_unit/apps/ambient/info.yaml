@@ -1,0 +1,9 @@
+formatVersion: 1
+formatType: am-application
+---
+id:      'ambient'
+icon:    'icon.png'
+code:    'qml/ambient.qml'
+runtime: 'qml'
+name:
+  en: 'ambient'

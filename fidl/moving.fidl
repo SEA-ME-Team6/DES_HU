@@ -1,0 +1,8 @@
+package commonapi
+
+interface MovingStatus {
+    version { major 1 minor 0 }
+    
+    attribute Float steering 
+    attribute Float throttle 
+}

@@ -1,0 +1,16 @@
+package commonapi
+
+interface LightStatus {
+    version { major 1 minor 0 }
+
+    method changedlight {
+        in {
+            Boolean light
+        }
+        out {
+            String message 
+        }
+    }
+
+    attribute Boolean light
+}

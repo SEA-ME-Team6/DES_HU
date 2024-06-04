@@ -1,0 +1,2 @@
+module User.HUSystem
+plugin HUSystem

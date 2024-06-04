@@ -1,0 +1,28 @@
+import "platform:/plugin/org.genivi.commonapi.someip/deployment/CommonAPI-4-SOMEIP_deployment_spec.fdepl"
+import "light.fidl"
+
+define org.genivi.commonapi.someip.deployment for interface commonapi.LightStatus {
+    SomeIpServiceID = 4665
+
+    method changedlight {
+        SomeIpMethodID = 2111
+    }
+
+    attribute light {
+        SomeIpGetterID = 3103
+        SomeIpSetterID = 3104
+        SomeIpNotifierID = 34013
+        SomeIpNotifierEventGroups = { 34013 }
+
+        SomeIpReliable = true
+    }
+
+}
+
+define org.genivi.commonapi.someip.deployment for provider as Service {
+    instance commonapi.LightStatus {
+        InstanceId = "LightStatus"
+
+        SomeIpInstanceID = 22141
+    }
+}

@@ -1,0 +1,9 @@
+formatVersion: 1
+formatType: am-application
+---
+id:      'music'
+icon:    'icon.png'
+code:    'qml/music.qml'
+runtime: 'qml'
+name:
+  en: 'music'

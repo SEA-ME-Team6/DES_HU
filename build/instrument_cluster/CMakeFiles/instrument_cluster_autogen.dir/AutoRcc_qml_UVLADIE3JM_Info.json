@@ -1,0 +1,38 @@
+{
+	"BUILD_DIR" : "/home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster/instrument_cluster_autogen",
+	"CMAKE_BINARY_DIR" : "/home/seame-workstation08/dahyun/app-ipi/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/seame-workstation08/dahyun/app-ipi/instrument_cluster",
+	"CMAKE_SOURCE_DIR" : "/home/seame-workstation08/dahyun/app-ipi",
+	"INCLUDE_DIR" : "/home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster/instrument_cluster_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/qml/TurnIndicator.qml",
+		"/home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/qml/dashboard.qml",
+		"/home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/qml/IconGaugeStyle.qml",
+		"/home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/qml/DashboardGaugeStyle.qml",
+		"/home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/qml/TachometerStyle.qml",
+		"/home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/qml/ValueSource.qml",
+		"/home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/images/battery.png",
+		"/home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/images/n.png",
+		"/home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/images/warning.jpg",
+		"/home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/images/r.png",
+		"/home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/images/temperature-icon.png",
+		"/home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/images/background.png",
+		"/home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/images/d.png",
+		"/home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/images/p.png",
+		"/home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/images/fuel-icon.png",
+		"/home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/fonts/LICENSE",
+		"/home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/fonts/DejaVuSans.ttf"
+	],
+	"LOCK_FILE" : "/home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster/CMakeFiles/instrument_cluster_autogen.dir/AutoRcc_qml_UVLADIE3JM_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "UVLADIE3JM",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "/home/seame-workstation08/Qt/5.15.2/gcc_64/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/seame-workstation08/dahyun/app-ipi/build/instrument_cluster/CMakeFiles/instrument_cluster_autogen.dir/AutoRcc_qml_UVLADIE3JM_Used.txt",
+	"SOURCE" : "/home/seame-workstation08/dahyun/app-ipi/instrument_cluster/src/qml.qrc",
+	"VERBOSITY" : 0
+}

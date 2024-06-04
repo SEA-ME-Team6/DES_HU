@@ -1,0 +1,16 @@
+package commonapi
+
+interface GearStatus {
+    version { major 1 minor 0 }
+
+    method gearselection {
+        in {
+            UInt8 gear
+        }
+        out {
+            String message
+        }
+    }
+
+    attribute UInt8 gear
+}
