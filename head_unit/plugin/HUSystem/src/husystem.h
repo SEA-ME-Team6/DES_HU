@@ -9,6 +9,10 @@
 #include <v1/commonapi/RPMStatusProxy.hpp>
 #include <v1/commonapi/LightStatusProxy.hpp>
 
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include <unistd.h>
+
 using namespace v1::commonapi;
 
 class HUSystem: public QObject{
@@ -38,6 +42,9 @@ signals:
     void aebChanged();
 
 private:
+    int create_socket();
+    int setting_socket(int server_fd, uint32_t ip_address, int port);
+
     float rpm_check = 0.0;
     bool light = false;
     quint8 gear = 0;
@@ -48,6 +55,9 @@ private:
     std::shared_ptr<GearStatusProxy<>> gearProxy;
     std::shared_ptr<RPMStatusProxy<>> rpmProxy;
     std::shared_ptr<LightStatusProxy<>> lightProxy;
+
+    int lkas_client_fd, aeb_client_fd;
+    quint8 lkas_activate, aeb_activate;
 };
 
 #endif // GEARCLIENT_HPP
